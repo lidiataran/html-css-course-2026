@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes on lesson 2</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Lesson 2 notes</h1>
+            <p>In this lesson we learnt about HTML elements and their usage.</p>
+            <!-- Коментар — це код який не потрапляє у вікно браузера (в’юпорт) але його можна подивитись в панелі розробника. Використовується в більшості випадків для нотаток. Щоб закоментувати фрагмент коду виділіть його і натисніть комбінацію клавіш Ctrl+.  Ctrl+/ на англійській розкладці або Shift + Option + A на Mac.  -->
+        </div>
+    </header>
+
+    <main>
+
+        <div>
+            <h2 id="void">Void Elements</h2>
+            <p>
+                HTML void elements are a special category of HTML tags that cannot <br>have any child nodes (content or nested elements) and therefore do not use an end tag. <br> Such include:
+            </p>
+            
+            <ol>
+                <li>img</li>
+                <li>img tag is used for inserting images into the page
+                    <ul>
+                    <li>img tag can be inserted inside li tags:
+                        <ul>
+                            <li><img src="/img/holding-cup.jpg" alt="Woman holding a cup in watercolour style" title="Woman holding a cup in watercolour style">
+                            <ul>
+                                <li><img src="/img/holding-flowers.jpg" alt="Woman holding flowers in watercolour style" title="Woman holding flowers in watercolour style">
+                                <ul>
+                                    <li><img src="/img/roses-hands-strawberries-ladybags.jpg" alt="Woman with crossed hands with strawberries and ladybags" title="Woman with crossed hands with strawberries and ladybags"></li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </li>
+                    </ul>
+                </li>
+                <li>br
+                    <ul>
+                        <li>br is used to create a line break. Here is an example:
+                            <ul>
+                                <li>lorem 25 ipsum dolor sit amet, consectetur adipiscing elit. <br>Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue <br>ligula ac quam viverra nec consectetur ante hendrerit. Donec et <br>mollis dolor. Praesent et diam eget libero egestas mattis sit amet <br>vitae augue. Nam tincidunt congue enim, ut porta lorem <br>lacinia consectetur. Donec ut libero sed arcu vehicula <br>ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, <br>pulvinar a semper sed, adipiscing id dolor.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Non-void elements:</h2>
+            <p>
+                In HTML, elements that require both an opening and a closing tag are known as non-void elements or container tags. Such include:
+            </p>
+            <ul>
+                <li>p</li>
+                <li>div
+                    <ul>
+                        <li>div doesn't change content on the page</li>
+                    </ul>
+                </li>
+                <li>ul</li>
+                <li>ol</li>
+                <!-- ! li is used inside ol or ul -->
+                <li>li</li>
+                <li>h1, h2, h3, h4, h5, h6</li>
+                <li>header, footer, <mark>main</mark>:
+                    <ul>
+                        <li>main can be only one on the page</li>
+                    </ul>
+                </li>
+                <!-- * MARK AND SPAN DIFFERENCE  span is used in css and mark is used to highlight text -->
+                <li>span
+                    <ul>
+                        <li>span is used to apply styles to a specific part of the text</li>
+                    </ul>
+                </li>
+                <li>mark
+                    <ul>
+                        <li>mark is used to <mark>highlight</mark> text</li>
+                    </ul>
+                </li>
+                <li>a
+                    <ul>
+                        <li>a is a tag that is used for inserting links, for example:
+                            <ul>
+                                <li><a href="https://music.youtube.com/watch?v=Zk9nK9SX4GM&si=Qh66E2ZirdmjCtXU" target="_blank" title="lovely song">It's All Over Now, Baby Blue by Joan Baez</a></li>
+                                <li><a href="#void">Jump to void elements</a></li>
+                                <li><a href="/fairytale.html" target="_blank" title="The Wild Swans by Hans Christian Andersen">Read a fairytale "The Wild Swans" by Hans Christian Andersen</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Credits:</h3>
+            <p><a href="https://www.youtube.com/@FreelancerLifeStyle" target="_blank">@FreelancerLifeStyle</a></p>
+        </div>
+    </footer>
+
+    <!-- !header, main and footer are inserted in the body of the page and are used to structure the content of the page.
+    ? what can be inside header? search bar, logo, navigation menu, etc.
+    ! what can be inside main? the main content of the page, articles, images, videos, etc.
+    ? what can be inside footer? contact information, social media links, copyright information, etc.
+   * what is the purpoose od div? div is a container element that is used to group together other elements and apply styles to them. it does not have any semantic meaning and is used purely for styling purposes.
+    TODO building tags are not shown on the page, they are used to structure the content of the page and apply styles to it. they are not visible to the user but are important for the layout and design of the page.
+    ! what is content? it is audio, video, text, images, etc.
+    TODO how to change colour of the comment -->
+     
+    
+</body>
+</html>
