@@ -1,1 +1,52 @@
 /* ! POSSIBLE WAY OF ADDING RESET TO CSS FILE but using direct link to html file is more convinient @import url('reset.css'); */
+
+* {
+	color: #53b3cb;
+}
+
+h1 {
+    color: #f9c22e;
+    
+}
+
+.navigation {
+    color: #ED6E3F;
+}
+
+.quote {
+    color: #8FB339;
+}
+
+.quote a {
+    color: #592E83;
+}
+
+.name {
+    color: #5C0029;
+}
+
+h3.name {
+    color: #CB48B7;
+}
+
+.navigation > a {
+    color: #7CC6FE;
+}
+
+a.navigation-singers {
+    color: #C884A6;
+}
+
+#navigation {
+    color: #A93F55;
+}
+
+.biography span{
+    color: #755C1B;
+}
+
+div.night li,
+div.carol li,
+div.stone li {
+    color: #B6A6CA;
+}
