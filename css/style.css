@@ -41,13 +41,12 @@ a.navigation-singers {
     color: #A93F55;
 }
 
-.biography span{
+.biography span {
     color: #755C1B;
 }
 
 div.night li,
-div.carol li,
-div.stone li {
+div.carol li {
     color: #B6A6CA;
 }
 
@@ -86,7 +85,20 @@ h3.verse ~ ul .chorus {
 /*Тег P який знаходяться безпосередньо далі по коду після об'єктів з класом text та має той самий рівень вкладеності (та ж аналогія з класом тільки тут вчитель звертається до учня "p" який знаходиться в списку одразу після учня .text):
 .text + p {}*/
 
-li.chorus-stone + li.chorus {
+li.stone-chorus + li.chorus {
     color: #62466B;
 }
 
+/*звертається до усіх елементів в яких в назві класу є частинка __container 
+[class*="__container"]{
+	color: white;
+}
+*/
+
+a[target="_blank"] {
+    color: #A54657;
+}
+
+.name.composer {
+    color: #6457A6;
+}
